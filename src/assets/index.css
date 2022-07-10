@@ -1,0 +1,17 @@
+/* @font-face {
+font-family: Neue Machina;
+  src: url("./font/PPNeueMachina-Ultrabold.otf") format("opentype");
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Telex");
+
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Neue Machina", "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

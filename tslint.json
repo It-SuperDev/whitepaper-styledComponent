@@ -1,0 +1,44 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "member-access": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "interface-name": false,
+    "no-console": false,
+    "ban-ts-ignore": true,
+    "no-empty-interface": true,
+    "no-for-in": true,
+    "whitespace": [true, "check-branch", "check-operator", "check-typecast"],
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "ignore-pattern": "^import |^export {(.*?)}",
+        "check-strings": true,
+        "check-regex": true
+      }
+    ],
+    "import-spacing": true,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    },
+    "no-unused-expression": true,
+    "no-mergeable-namespace": true,
+    "no-var-keyword": true,
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-variable": true,
+    "no-submodule-imports": false,
+    "jsx-no-lambda": false
+  },
+  "rulesDirectory": []
+}

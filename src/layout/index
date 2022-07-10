@@ -1,0 +1,42 @@
+// import { Box, Button } from '@mui/material';
+// import { Search } from '@mui/icons-material';
+// // import Intl from './IntlDropdown';
+// // import BaseZustand from '../../../zustand/BaseZustand';
+// import * as Styled from './style';
+
+// export default function PrimarySearchAppBar() {
+//     const { setSidebarStatus, sidebar } = BaseZustand((state) => state);
+//     return (
+//         <Styled.WrappAppBar>
+//             <Styled.WrappToolbar>
+//                 {/* @ts-ignore */}
+//                 <Styled.SidebarHeader value={sidebar}>
+//                     <Box sx={{ flexGrow: 1 }} />
+//                     <Button className="sidebar-hide" onClick={() => setSidebarStatus(!sidebar)}>
+//                         {sidebar ? <Styled.WrappArrowBackIosNew /> : <Styled.WrappMenu />}
+//                     </Button>
+//                 </Styled.SidebarHeader>
+//                 <Styled.LogoHeader>
+//                     <Styled.Text8866>8866</Styled.Text8866>
+//                     <Styled.TextCasino>casino</Styled.TextCasino>
+//                 </Styled.LogoHeader>
+//                 <Styled.SearchHeader>
+//                     <Styled.SearchIcon>
+//                         <Search />
+//                     </Styled.SearchIcon>
+//                     <Styled.SearchInput />
+//                 </Styled.SearchHeader>
+//                 <Box sx={{ flexGrow: 1 }} />
+//                 <Styled.AuthButtonHeader>
+//                     <Styled.SignInButton>
+//                         <Styled.WrappSignInButton>Sign In</Styled.WrappSignInButton>
+//                     </Styled.SignInButton>
+//                     <Styled.SignUpButton>
+//                         <Styled.WrappSignUpButton>Sign Up</Styled.WrappSignUpButton>
+//                     </Styled.SignUpButton>
+//                 </Styled.AuthButtonHeader>
+//                 <Intl />
+//             </Styled.WrappToolbar>
+//         </Styled.WrappAppBar>
+//     );
+// }
